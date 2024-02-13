@@ -91,3 +91,36 @@ a = input("Enter name")
 ````
 * It is  imported to note that the output of input is always a string(even if the number is entered)
 
+
+# CHAPTER -3 STRING
+*  String is a sequenc of characters enclosed in quotes. We can primarily, write a string in these three ways
+
+* Single quoted String -> a =  "Jitu"
+* Double quoted String -> b = 'Sharma'
+* Triple quoted String  -> c = '''Graphic"'
+
+# String Slicing
+* A string in python canbe slice for getting a part of the string. 
+* The index in a string starets from 0 to length() in python. In order to slice a string, we use the following syntax.
+
+Sl = name[in.start; ind_end]
+Sl = 'Jiturajsharma'
+````
+sl[ 0 : 3] returns "jitu" -> character from 0 to 3
+sl[1:3] returns 'itur' -> character from 1 to 3 
+````
+## Negative indicess:->
+* Negative indices can also be used as shown in the figure above -1 corrosponds to the (length-1) in dex, -2 to length(-2)
+
+
+# Slicing with skip value
+* We can provide a skip value as a part of our slice like this.
+
+````
+word = 'jiturajsharma'
+word[1:6:2] 
+````
+
+
+
+
